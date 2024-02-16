@@ -65,6 +65,6 @@ jobs:
           args: ${{ steps.generate-args.outputs.args }}
         run: |
           echo "PATH Variable: $PATH"
-          ls
+          chmod +x buildebug.sh
           buildebug.sh
           
